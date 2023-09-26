@@ -94,11 +94,66 @@ main article img
     margin: .1875rem;
 }
 
+.contenedor_inicio 
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1530px) {
+    .contenedor_inicio {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .contenedor_inicio {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contenedor_inicio {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    }
+}
+
 .contenedor 
 {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     justify-content: center;
+}
+
+@media only screen and (max-width: 1100px) {
+    .contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .contenedor {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    }
 }
 
 .quienes 
@@ -164,7 +219,7 @@ footer
     font-size: 1.125rem;
     margin-bottom: 0;
     width: 100%;
-    height:auto;
+    
 }
 
 footer img 
@@ -187,11 +242,11 @@ footer div a img:hover
     grid-template-columns: auto auto auto auto;
     gap: .625rem;
     margin: 0;
-    padding: 1.25rem;
+    padding: .3125rem;
 }
 
 .columnasfooter 
-{
+{   
     border: .0625rem solid white;
     text-align: center;
     margin: .0625rem;
