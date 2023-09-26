@@ -10,6 +10,7 @@
 
 #banner 
 {
+    margin-bottom: .1875rem;
     width: 100%;
 }
 
@@ -26,6 +27,7 @@ body
     list-style: none;
     justify-content: end;
     width: 100%;
+    margin-bottom: 0;
 }
 
 .userli 
@@ -34,16 +36,16 @@ body
     margin-inline: 1.25rem;
 }
 
-
-
 .navegador 
 {
+    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
     list-style: none;
     font-size: 1.25rem;
+    margin-bottom: .0625rem;
 }
 
 a 
@@ -99,6 +101,8 @@ main article img
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
+    margin-bottom: 1.5625rem;
+   
 }
 
 @media only screen and (max-width: 1530px) {
@@ -130,6 +134,7 @@ main article img
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
+    margin-bottom: 1.5625rem;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -156,6 +161,10 @@ main article img
     }
 }
 
+#fondoquienes {
+    margin-top: 2.1875rem;
+}
+
 .quienes 
 {
     display: grid;
@@ -163,21 +172,19 @@ main article img
     width: 35%;
     margin: 0 auto;
     padding: 1.25rem;
-    font-size: large;
+    font-size: larger;
     margin-bottom: 3.125rem;
-    min-height: 40vh;
+    
 }
 
 .caja_inicio 
 {
     display: flex;
     flex-direction: column;
-    text-align: center;
     color: white;
     background-color: black;
     width: 21.875rem;
     margin: 1.25rem;
-    margin-bottom: 3.125rem;
     box-shadow: 0rem 0rem .625rem black;
 }
 
@@ -208,7 +215,7 @@ main article img
 .text-caja 
 {    
    margin-top: .625rem;
-   margin-bottom: .625rem;
+  
    
 }
 
