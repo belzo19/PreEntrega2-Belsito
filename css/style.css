@@ -150,6 +150,7 @@ main article img
     grid-template-columns: auto;
     justify-content: center;
     }
+    
 }
 
 #fondoquienes {
@@ -165,8 +166,48 @@ main article img
     padding: 1.25rem;
     font-size: larger;
     margin-bottom: 3.125rem;
-    
 }
+
+@media only screen and (max-width: 1101px) {
+    .quienes 
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 1.25rem;
+        font-size: larger;
+        margin-bottom: 3.125rem;
+    }
+}
+
+@media only screen and (max-width: 851px) {
+    .quienes 
+    {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 65%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    font-size: medium;
+    margin-bottom: 3.125rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .quienes 
+    {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    font-size: medium;
+    margin-bottom: 3.125rem;
+    }
+}
+
+
 
 .caja 
 {
