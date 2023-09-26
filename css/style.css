@@ -32,7 +32,6 @@ body
 {
     font-size: .9375rem;
     margin-inline: 1.25rem;
-    
 }
 
 
@@ -45,7 +44,6 @@ body
     width: 100%;
     list-style: none;
     font-size: 1.25rem;
-   
 }
 
 a 
@@ -54,25 +52,24 @@ a
     color: white;
 }
 
-a:hover {
-text-shadow: .0625rem .0625rem .25rem white;
+a:hover 
+{
+    text-shadow: .0625rem .0625rem .25rem white;
 }
 
-.nav-bottom {
-border: .0625rem solid rgba(0, 0, 0, 0.644);
-padding-left: .625rem;
-padding-right: .625rem;
-padding-top: .0625rem;
-padding-bottom: .0625rem;
-border-radius: 1.5625rem;
-background-color: white;
-color: black;
-text-shadow: 1px 1px 2px gray;
-box-shadow: 0rem 0rem .25rem white;
+.nav-bottom 
+{
+    border: .0625rem solid rgba(0, 0, 0, 0.644);
+    padding-left: .625rem;
+    padding-right: .625rem;
+    padding-top: .0625rem;
+    padding-bottom: .0625rem;
+    border-radius: 1.5625rem;
+    background-color: white;
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+    box-shadow: 0rem 0rem .25rem white;
 }
-
-
-
 
 header nav 
 {
@@ -113,6 +110,7 @@ main article img
     padding: 1.25rem;
     font-size: large;
     margin-bottom: 3.125rem;
+    min-height: 40vh;
 }
 
 .caja_inicio 
@@ -125,6 +123,13 @@ main article img
     width: 21.875rem;
     margin: 1.25rem;
     margin-bottom: 3.125rem;
+    box-shadow: 0rem 0rem .625rem black;
+}
+
+.caja_inicio:hover 
+{
+    text-shadow: .0625rem .0625rem .25rem white;
+    box-shadow: .0625rem .0625rem .25rem white;
 }
 
 .caja 
@@ -135,8 +140,21 @@ main article img
     color: white;
     background-color: black;
     width: 15.625rem;
-    margin: 1.25rem
+    margin: 1.25rem;
+    box-shadow: 0rem 0rem .625rem black;
+}
 
+.caja:hover 
+{
+    text-shadow: .0625rem .0625rem .25rem white;
+    box-shadow: .0625rem .0625rem .25rem white;
+}
+
+.text-caja 
+{    
+   margin-top: .625rem;
+   margin-bottom: .625rem;
+   
 }
 
 footer 
@@ -158,11 +176,13 @@ footer img
     margin-bottom: 1.25rem;
 }
 
-footer div a img:hover {
+footer div a img:hover 
+{
     box-shadow: .0625rem .0625rem .25rem white;
 }
 
-.divfooter {
+.divfooter 
+{
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: .625rem;
@@ -170,20 +190,22 @@ footer div a img:hover {
     padding: 1.25rem;
 }
 
-.columnasfooter {
+.columnasfooter 
+{
     border: .0625rem solid white;
     text-align: center;
     margin: .0625rem;
 }
 
-.iconos-footer {
+.iconos-footer 
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
-footer h4 {
+footer h4 
+{
 border-width: 6.25rem;
 border: .0625rem solid rgba(0, 0, 0, 0.644);
 padding-left: .625rem;
@@ -196,7 +218,8 @@ text-shadow: 1px 1px 2px gray;
 box-shadow: 0rem 0rem .25rem white;
 }
 
-.columnasfooter2 {
+.columnasfooter2 
+{
     font-size: small;
     border: .0625rem solid white;
     text-align: center;
