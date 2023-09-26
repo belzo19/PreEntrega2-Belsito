@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* 
+{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+#banner 
+{
+    width: 100%;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.usuario 
+{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    width: 100%;
+}
+
+.userli 
+{
+    font-size: .9375rem;
+    margin-inline: 1.25rem;
+    
+}
+
+
+
+.navegador 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    font-size: 1.25rem;
+   
+}
+
+a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+text-shadow: .0625rem .0625rem .25rem white;
+}
+
+.nav-bottom {
+border: .0625rem solid rgba(0, 0, 0, 0.644);
+padding-left: .625rem;
+padding-right: .625rem;
+padding-top: .0625rem;
+padding-bottom: .0625rem;
+border-radius: 1.5625rem;
+background-color: white;
+color: black;
+text-shadow: 1px 1px 2px gray;
+box-shadow: 0rem 0rem .25rem white;
+}
+
+
+
+
+header nav 
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: .3125rem;
+}
+
+h1 
+{
+    padding: 1.25rem;
+}
+
+h2 
+{
+    font-size: medium;
+}
+
+main article img 
+{   
+    margin: .1875rem;
+}
+
+.contenedor 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quienes 
+{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 35%;
+    margin: 0 auto;
+    padding: 1.25rem;
+    font-size: large;
+    margin-bottom: 3.125rem;
+}
+
+.caja_inicio 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 21.875rem;
+    margin: 1.25rem;
+    margin-bottom: 3.125rem;
+}
+
+.caja 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 15.625rem;
+    margin: 1.25rem
+
+}
+
+footer 
+{
+    background-color: black;
+    color: white;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+    width: 100%;
+    height:auto;
+}
+
+footer img 
+{   
+    width: 1.875rem;
+    margin-inline: .625rem;
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+footer div a img:hover {
+    box-shadow: .0625rem .0625rem .25rem white;
+}
+
+.divfooter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: .625rem;
+    margin: 0;
+    padding: 1.25rem;
+}
+
+.columnasfooter {
+    border: .0625rem solid white;
+    text-align: center;
+    margin: .0625rem;
+}
+
+.iconos-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+footer h4 {
+border-width: 6.25rem;
+border: .0625rem solid rgba(0, 0, 0, 0.644);
+padding-left: .625rem;
+padding-right: .625rem;
+padding-top: 0;
+padding-bottom: 0;
+background-color: white;
+color: black;
+text-shadow: 1px 1px 2px gray;
+box-shadow: 0rem 0rem .25rem white;
+}
+
+.columnasfooter2 {
+    font-size: small;
+    border: .0625rem solid white;
+    text-align: center;
+    padding: .3125rem;
+    grid-column: 1 / 5;
+}
+
