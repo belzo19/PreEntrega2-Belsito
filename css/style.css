@@ -9,7 +9,7 @@
 }
 
 #banner 
-{
+{   
     margin-bottom: .1875rem;
     width: 100%;
 }
@@ -65,6 +65,7 @@ a
 {
     text-decoration: none;
     color: white;
+    
 }
 
 a:hover 
@@ -273,10 +274,25 @@ box-shadow: 0rem 0rem .25rem white;
     grid-column: 1 / 5;
 }
 
-.carousel-inner {
-    width: 43.75rem;
+.carousel {
+    margin-top: 1.25rem;
+    width: 31.25rem;
     justify-content: center;
     box-shadow: 0rem 0rem .625rem black;
     border: 3px solid black;
 }
 
+@media only screen and (max-width: 31.25rem) {
+    .carousel {
+        margin-top: 1.25rem;
+        width: 18.75rem;
+        justify-content: center;
+        box-shadow: 0rem 0rem .625rem black;
+        border: 3px solid black;
+    }
+}
+
+.sesion 
+{
+    margin-top: 10vh;
+}
