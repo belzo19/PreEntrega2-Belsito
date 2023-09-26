@@ -38,7 +38,6 @@ body
 
 .navegador 
 {
-    
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -46,6 +45,20 @@ body
     list-style: none;
     font-size: 1.25rem;
     margin-bottom: .0625rem;
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .navegador 
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        list-style: none;
+        font-size: 1.25rem;
+        margin-bottom: .0625rem;
+        gap: .3125rem;
+    }
 }
 
 a 
@@ -101,32 +114,9 @@ main article img
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 3.125rem;
+
    
-}
-
-@media only screen and (max-width: 1530px) {
-    .contenedor_inicio {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 1130px) {
-    .contenedor_inicio {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    }
-}
-
-@media only screen and (max-width: 750px) {
-    .contenedor_inicio {
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    }
 }
 
 .contenedor 
@@ -175,23 +165,6 @@ main article img
     font-size: larger;
     margin-bottom: 3.125rem;
     
-}
-
-.caja_inicio 
-{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    background-color: black;
-    width: 21.875rem;
-    margin: 1.25rem;
-    box-shadow: 0rem 0rem .625rem black;
-}
-
-.caja_inicio:hover 
-{
-    text-shadow: .0625rem .0625rem .25rem white;
-    box-shadow: .0625rem .0625rem .25rem white;
 }
 
 .caja 
@@ -252,6 +225,17 @@ footer div a img:hover
     padding: .3125rem;
 }
 
+@media only screen and (max-width: 37.8125rem) {
+    .divfooter 
+{
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    margin: 0;
+    padding: .3125rem;
+}
+}
+
 .columnasfooter 
 {   
     border: .0625rem solid white;
@@ -287,5 +271,12 @@ box-shadow: 0rem 0rem .25rem white;
     text-align: center;
     padding: .3125rem;
     grid-column: 1 / 5;
+}
+
+.carousel-inner {
+    width: 43.75rem;
+    justify-content: center;
+    box-shadow: 0rem 0rem .625rem black;
+    border: 3px solid black;
 }
 
